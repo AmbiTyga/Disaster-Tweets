@@ -9,4 +9,4 @@ The dataset in this competition comprises of features:
 In these features 'id' is to distinguish between all the tweets, 'keyword' contains the certain word present in the 'text' which helps in classifying the output. 'location' is independent with respect to the users and finally target to distinguish between different tweets.
 I pre-processed the data and labelled them again because some tweets were mislabeled. After then in the wrapper class, in 'build_model' method I ran the model for 4 folds using [StratifiedKFold](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.StratifiedKFold.html) from sklearn. After that using 'predict' method we predicted the classes for test data.
 
-Check out my kaggle kernel 👉 [Disaster Tweets- BERT+TF2.0](https://www.kaggle.com/ambityga/disaster-tweets-bert-tf2-0/notebook)
+Check out my kaggle kernel 👉 [Disaster Tweets- BERT+TF2.0](https://www.kaggle.com/ambityga/disaster-tweets-bert-tf2-0?scriptVersionId=33430551)
